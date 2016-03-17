@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Notícia Times - Internacional</title>
+
+
+        <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/menu.css" rel="stylesheet" type="text/css"/>
+        <script src="../../js/mudaBackground.js" type="text/javascript"></script>
+        <script src="../../js/jquery.js" type="text/javascript"></script>
+        <script src="../../js/aumentaFonte.js" type="text/javascript"></script>
+        <link href="../../css/preto.css" rel="alternate stylesheet" type="text/css" title="fundo_preto" media="screen"/>
+        <link href="../../css/padrao.css" rel="alternate stylesheet" type="text/css" title="fundo_original" media="screen"/>
+        <script src="../../js/styleswitcher.js" type="text/javascript"></script>
+    </head>
+    <body onload="tamanhooriginal()" class="background">
+
+        <!-- DISPARA O ÁUDIO QUANDO A PÁGINA ESTIVER PRONTA PARA O USO-->
+        <audio id="audio" autoplay="true">
+            <source src="../../pagok.mp3" type="audio/mpeg">
+        </audio>
+        <!-- FIM -->
+
+        <!-- ÂNCORA PARA O CONTEÚDO -->
+        <div id="ancora">
+            <a href="#conteudo" title="link direto para o conteúdo" tabindex="1">Conteúdo</a>
+        </div>
+        <!-- FIM DA ÂNCORA -->
+
+        <!-- INÍCIO DO MENU GERAL (CONTAINER) -->
+        <nav role="navigation">
+            <div class="container-fluid" title="Você está no Menu" >
+                <div class="row">
+                    <div class="col-lg-6 menu" id="menu">
+
+                        <!-- MENU NAVEGAÇÃO -->
+                        <ul>
+                            <li>
+                                <a href="../../index.html" tabindex="1" accesskey="a" title="Voltar para página Inicial">
+                                    <figure>
+                                        <img src="../../img/logo.png" width="120" height="50" alt="Notícias do Dia"/>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li><a href="../../artesanato/artesanato.html" tabindex="1" accesskey="a" title="Artesanato" class="menu">Artesanato</a></li>
+                            <li><a href="../../musica/musica.html" tabindex="2" accesskey="m" title="Música" class="menu">Música</a></li>
+                            <li><a href="../../novelas/emissora.html" tabindex="3" accesskey="n" title="Novelas" class="menu">Novelas</a></li>
+                            <li><a href="../../times/times.html" tabindex="4" accesskey="t" title="Times" class="menu">Times</a></li>
+                        </ul>
+                        <!-- FIM NAVEGAÇÃO -->
+                    </div>
+                    <div class="col-lg-6 menu" id="menu">
+
+                        <!-- MENU ACESSÍVEL -->
+                        <ul>
+                            <li><a class="btn btn-default" type="button" value="+" onclick="fonte('a')
+                                    return false;" title="Aumentar Letra" >Aumentar Letra</a></li>
+                            <li><a class="btn btn-default" type="button" value="-" onclick="fonte('b');" title="Diminur Letra"  >Diminur Letra</a></li>
+                            <li><a class="btn btn-default" type="button" value="100%" onclick="fonte('c')" title="Letra Normal"  >Letra Normal</a></li><br>
+                            <li><a class="btn btn-default" type="button" value="Cor" onclick="setActiveStyleSheet('fundo_preto');
+                                    return false;" title="Auto Contraste" style="background-color: black; color: white;">Auto Contraste</a></li>
+                            <li><a class="btn btn-default" type="button" value="CorPadrao" onclick="setActiveStyleSheet('fundo_original');
+                                    return false;" title="Cores Originais">Cores Originais</a></li>
+                        </ul>
+                    </div>
+                    <!-- FIM ACESSÍVEL -->
+                </div>
+            </div>
+        </nav>
+        <!-- FIM DO MENU GERAL -->
+
+        <!-- INÍCIO DO CONTEUDO PRINCIPAL -->
+        <hr>
+        <section role="main">
+            <div class="container" title="você está no conteúdo" id="container">
+
+                <!-- ÂNCORA -->
+                <a name="conteudo"></a>
+                <!-- FIM-->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="thumbnail background" title="Notícia Time do Internacional" role="contentinfo">
+                            <figure>
+                                <img src="../../img/inter.jpg" alt="Logotipo do Time do Internacional" width="100">
+                            </figure>
+                            <div class="corFundo" tabindex="6">
+                                <h1>A 10 jogos do fim:</h1>
+                                <p>O caminho do Inter para tentar chegar ao G-4 do Brasileiro.
+                                    Projeção de pontos do GloboEsporte.com aponta que Colorado precisa somar ao menos 20 dos próximos 30 pontos no Brasileiro para assegurar vaga na Libertadores.
+                                    Se o Inter viu a chance de conquistar um título nacional em 2015 se esvair com a eliminação da Copa do Brasil, diante do Palmeiras,
+                                    tenta a partir de então se concentrar em um único objetivo: salvar o semestre com vaga no G-4. Tarefa árdua, que implica 
+                                    aos comandados de Argel subir de produção e não mais deslizar nesta reta final, a 10 rodadas do fim do Brasileirão. 
+                                    Abaixo, o GloboEsporte.com mostra os caminhos do Colorado para ainda sonhar com a vaga na Libertadores.
+                                    O time gaúcho é o atual oitavo colocado, com 48,8% de aproveitamento e 51 pontos somados. No returno, 
+                                    soma a quinta melhor campanha, com 16 pontos. Mesmo assim, de acordo com cálculo do matemático Tristão Garcia,
+                                    do site infobola, a equipe de Argel tem apenas 7% de chances de G-4 e nenhuma de título.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <!-- FIM DO CONTEUDO PRINCIPAL 
+                    
+        <!-- INÍCIO DO RODAPÉ-->
+        <hr>
+        <footer class="footer">
+            <div class="container text-center" >
+                <strong class="text-muted">Site Acessível - v.2</strong>
+                <p class="text-muted"><b>Projeto:</b> <i>Estratégias de Acessibilidade para o design de interfaces de sistemas para internet.</i></p>
+                <p class="text-muted"><b>Orientador:</b> <i>Marcos Alexandre Rose Silva</i></p>
+                <p class="text-muted"><b>Aluno:</b> <i>Vinícius Diehl de Franceschi</i></p>
+            </div>
+        </footer>
+        <!-- FIM DO RODAPÉ -->
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

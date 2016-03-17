@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Artesanato</title>
+
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/preto.css" rel="alternate stylesheet" type="text/css" title="fundo_preto" media="screen"/>
+        <link href="../css/padrao.css" rel="alternate stylesheet" type="text/css" title="fundo_original" media="screen"/>
+        <script src="../js/aumentaFonte.js" type="text/javascript"></script>
+        <script src="../js/mudaBackground.js" type="text/javascript"></script>
+        <script src="../js/jquery.js" type="text/javascript"></script>
+        <script src="../js/styleswitcher.js" type="text/javascript"></script>
+
+    </head>
+    <body onload="tamanhooriginal();" class="background">
+
+        <!-- DISPARA O ÁUDIO QUANDO A PÁGINA ESTIVER PRONTA PARA O USO-->
+        <audio id="audio" autoplay="true">
+            <source src="../pagok.mp3" type="audio/mpeg">
+        </audio>
+        <!-- FIM -->
+
+        <!-- ÂNCORA PARA O CONTEÚDO -->
+        <div id="ancora">
+            <a href="#conteudo" title="link direto para o conteúdo" tabindex="1">Conteúdo</a>
+        </div>
+        <!-- FIM DA ÂNCORA -->
+
+        <!-- INÍCIO DO MENU GERAL (CONTAINER) -->
+        <nav role="navigation">
+            <div class="container-fluid" title="Você está no Menu" >
+                <div class="row">
+                    <div class="col-lg-6 menu" id="menu">
+
+                        <!-- MENU NAVEGAÇÃO -->  
+                        <ul role="menubar">
+                            <li role="menuitem">
+                                <a href="../index.html" tabindex="1" accesskey="a" title="Voltar para página Inicial">
+                                    <img src="../img/logo.png" width="120" height="50" alt="Notícias do Dia"/>
+                                </a>
+                            </li>
+                            <li role="menuitem"><a href="../artesanato/artesanato.html" tabindex="1" accesskey="a" title="Artesanato" class="menu">Artesanato</a></li>
+                            <li role="menuitem"><a href="../musica/musica.html" tabindex="2" accesskey="m" title="Música" class="menu">Música</a></li>
+                            <li role="menuitem"><a href="../novelas/emissora.html" tabindex="3" accesskey="n" title="Novelas" class="menu">Novelas</a></li>
+                            <li role="menuitem"><a href="../times/times.html" tabindex="4" accesskey="t" title="Times" class="menu">Times</a></li>
+                        </ul>
+                        <!-- FIM NAVEGAÇÃO -->
+                    </div>
+                    <div class="col-lg-6 menu" id="menu">
+
+                        <!-- MENU ACESSÍVEL -->
+                        <ul role="menubar">
+                            <li role="menuitem"><a class="btn btn-default" type="button" value="+" onclick="fonte('a')
+                                    return false;" title="Aumentar Letra" >Aumentar Letra</a></li>
+                            <li role="menuitem"><a class="btn btn-default" type="button" value="-" onclick="fonte('b');" title="Diminur Letra"  >Diminur Letra</a></li>
+                            <li role="menuitem"><a class="btn btn-default" type="button" value="100%" onclick="fonte('c')" title="Letra Normal"  >Letra Normal</a></li><br>
+                            <li role="menuitem"><a class="btn btn-default" type="button" value="Cor" onclick="setActiveStyleSheet('fundo_preto');
+                                    return false;" title="Auto Contraste" style="background-color: black; color: white;">Auto Contraste</a></li>
+                            <li role="menuitem"><a class="btn btn-default" type="button" value="CorPadrao" onclick="setActiveStyleSheet('fundo_original');
+                                    return false;" title="Cores Originais">Cores Originais</a></li>
+                        </ul>
+                        <!-- FIM ACESSÍVEL -->
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- FIM DO MENU GERAL -->
+
+        <!-- INÍCIO DO CONTEUDO PRINCIPAL -->
+        <hr>
+        <section role="main">
+            <div class="container" title="Você está no conteúdo" id="container">
+
+                <!-- ÂNCORA -->
+                <a name="conteudo"></a>
+                <!-- FIM-->
+
+                <div class="col-lg-12">
+                    <div class="thumbnail background corFundo" title="Enfeite de Natal" role="contentinfo">
+                        <figure class="text-center"> 
+                            <img src="../img/artesanato-de-natal.jpg" alt="Enfeite de Natal"/>
+                        </figure>
+                        <h1 class="text-center">Enfeites de Natal passo a passo</h1>
+                        <h2 class="text-center">Enfeite para decoração de natal passo a passo</h2>
+                        <h3>Materiais</h3>
+                        <ul id="listaMaterial">
+                            <li>Retalhos de tecido com tema natalino</li>
+                            <li>CD velho</li>
+                            <li>Tesoura</li>
+                            <li>Agulha</li>
+                            <li>Linha</li>
+                            <li>Cola Quente</li>
+                            <li>Cola branca</li>
+                            <li>Fita</li>
+                            <li>Pedaço de feltro</li>
+                        </ul>
+                        <h2>Como fazer o enfeite para decoração de natal</h2>
+                        <p style="text-align: center;">
+                        <figure class="text-center"> 
+                            <img src="../img/artesanato/natalkarina2.jpg" alt="O primeiro passo é montar o fuxico. Para isso, corte um papel em formato de círculo com diâmetro 8 cm"/>
+                        </figure> 
+                        </p>
+                        <p style="text-align: left;" tabindex="5">
+                            O primeiro passo é montar o fuxico. Para isso, corte um papel em formato de círculo com diâmetro 8 cm. Se você quer aprender mais sobre fuxico não deixe de ver a nossa página de 
+                            <a title="Como fazer o fuxico passo a passo" href="http://www.revistaartesanato.com.br/artesanato/apreda-a-fazer-o-fuxico-passo-a-passo/06" tabindex="22">como fazer um fuxico passo a passo</a>.
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh6.googleusercontent.com/-74lLPcrCXUs/TsxPfViMGMI/AAAAAAAAA6k/N38EfJ6ptyE/s513/natal%252520karina3.jpg" alt="Após cortar o tecido na forma de círculo, dobre esse círculo ao meio"/>
+                        </figure>
+
+                        <p style="text-align: left;" tabindex="6">
+                            Após cortar o tecido na forma de círculo, dobre esse círculo ao meio
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh5.googleusercontent.com/-peDNzEnFfJc/TsxPfZYrtcI/AAAAAAAAA6k/XMJ7HplP74A/s513/natal%252520karina4.jpg" alt="Dobre novamente ao meio"/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="7">
+                            Dobre novamente ao meio
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh3.googleusercontent.com/-P9Td-G4Pebg/TsxPfcc1vYI/AAAAAAAAA6k/6JmXtwyTOWA/s513/natal%252520karina5.jpg" alt="Passe a linha na base do pedaço de tecido como mostrado acima. Vá montando o fuxico."/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="8">
+                            Passe a linha na base do pedaço de tecido como mostrado acima. Vá montando o fuxico.
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh3.googleusercontent.com/-OUJKxF8cGs4/TsxPfx4D-QI/AAAAAAAAA6k/3Ob473yJPcQ/s513/natal%252520karina6.jpg" alt="Após colocar algumas pétalas, puxe para formar o fuxico"/></p>
+                        </figure>    
+                        <p style="text-align: left;" tabindex="9">
+                            Após colocar algumas pétalas, puxe para formar o fuxico
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh4.googleusercontent.com/-TYKvNLu5sCs/TsxPf3qQRGI/AAAAAAAAA6k/249uDpDhFgY/s513/natal%252520karina7.jpg" alt="Faça fuxicos de vários tamanhos, colocando mais ou menos pétalas, como mostrado na foto acima."/></p>
+                        </figure>
+                        <p style="text-align: left;" tabindex="10">
+                            Faça fuxicos de vários tamanhos, colocando mais ou menos pétalas, como mostrado na foto acima.
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh6.googleusercontent.com/-5JysU-4XI18/TsxPgYZcSQI/AAAAAAAAA6k/V8eb6v9ejiI/s513/natal%252520karina8.jpg" alt="Pegue o CD e marque no tecido o seu formato"/></p>
+                        </figure>
+                        <p style="text-align: left;" tabindex="11">
+                            Pegue o CD e marque no tecido o seu formato
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh6.googleusercontent.com/-OqPkWV3ohrQ/TsxPgTZYzLI/AAAAAAAAA6k/GSxn3HxU3X8/s513/natal%252520karina9.jpg" alt="Corte o tecido e o feltro no formato do CD"/></p>
+                        </figure>
+                        <p style="text-align: left;" tabindex="12">
+                            Corte o tecido e o feltro no formato do CD
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh6.googleusercontent.com/-PuONl5d3qkg/TsxPg9PKFdI/AAAAAAAAA6k/VJMA0t8P8S4/s513/natal%252520karina10.jpg" alt="Passe cola branca em todo o CD"/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="13">
+                            Passe cola branca em todo o CD
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh4.googleusercontent.com/-_V0rqxOxN24/TsxPhLPjFvI/AAAAAAAAA6k/o49x1bp7e2s/s513/natal%252520karina11.jpg" alt="Cole o tecido e o feltro no CD. Corte o tecido na parte central para liberar o furo do CD"/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="14">
+                            Cole o tecido e o feltro no CD. Corte o tecido na parte central para liberar o furo do CD
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh3.googleusercontent.com/-LL1T4_sn_SY/TsxPhaRhkvI/AAAAAAAAA6k/59uNNLnS4ZQ/s513/natal%252520karina12.jpg" alt="Coloque uma fita na borda, para dar o acabamento. Você pode prender com cola branca ou cola quente"/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="15">
+                            Coloque uma fita na borda, para dar o acabamento. Você pode prender com cola branca ou cola quente
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh4.googleusercontent.com/-w5_hs5Vt8O0/TsxPhrFdDrI/AAAAAAAAA6k/JVBHtWDep6k/s513/natal%252520karina13.jpg" alt="Agora chegou o momento de montar a árvore de fuxico. Vá prendendo um fuxico no outro começando do maior para o menor"/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="16">
+                            Agora chegou o momento de montar a árvore de fuxico. Vá prendendo um fuxico no outro começando do maior para o menor
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh5.googleusercontent.com/-Tm0FjYv77Fw/TsxPh7np0HI/AAAAAAAAA6k/lq9d96ztCyA/s513/natal%252520karina14.jpg" alt="Após colar todos os fuxicos um no outro, é hora de colocar um graveto no meio para servir de tronco para a árvore. Aqui foi usado um pau de canela. Você pode usar um graveto se quiser."/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="17">
+                            Após colar todos os fuxicos um no outro, é hora de colocar um graveto no meio para servir de tronco para a árvore. Aqui foi usado um pau de canela. Você pode usar um graveto se quiser.
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh4.googleusercontent.com/-qukexYKLmz8/TsxPhzisz0I/AAAAAAAAA6k/elMs8xSmJf8/s513/natal%252520karina15.jpg" alt="Fixe a árvore de fuxico na parte central do CD com cola quente"/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="18">
+                            Fixe a árvore de fuxico na parte central do CD com cola quente
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh6.googleusercontent.com/-emU-5WI06JE/TsxPihqnBkI/AAAAAAAAA6k/2rd4BopQp90/s513/natal%252520karina17.jpg" alt="Coloque cola também na parte de baixo para fixar bem"/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="19">
+                            Coloque cola também na parte de baixo para fixar bem
+                        </p>
+                        <figure class="text-center">
+                            <img src="https://lh5.googleusercontent.com/-eemnppP_xqE/TsxPjALEF4I/AAAAAAAAA6k/O4e8DzTgd14/s512/natal%252520karina18.jpg" alt="Está pronto! Está pronta a árvore de fuxico. Com pouco tempo e dedicação você pode montar um belo enfeite para decoração de natal. Monte agora mesmo a sua decoração personalizada."/>
+                        </figure>
+                        <p style="text-align: left;" tabindex="20">
+                            Está pronta a árvore de fuxico. Com pouco tempo e dedicação você pode montar um belo enfeite para decoração de natal. Monte agora mesmo a sua decoração personalizada.
+                        </p>
+                        <p style="text-align: left;" tabindex="21">
+                            Esse passo a passo foi feito em conjunto pela artesã Karina Rigueiro (<a href="http://karinarigueiro.blogspot.com/" title="Link para ver o passo a passo">http://karinarigueiro.blogspot.com</a>) e a Revista Artesanato.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM DO CONTEUDO PRINCIPAL 
+                    
+        <!-- INÍCIO DO RODAPÉ-->
+        <hr>
+        <footer class="footer">
+            <div class="container text-center" >
+                <strong class="text-muted">Site Acessível - v.2</strong>
+                <p class="text-muted"><b>Projeto:</b> <i>Estratégias de Acessibilidade para o design de interfaces de sistemas para internet.</i></p>
+                <p class="text-muted"><b>Orientador:</b> <i>Marcos Alexandre Rose Silva</i></p>
+                <p class="text-muted"><b>Aluno:</b> <i>Vinícius Diehl de Franceschi</i></p>
+            </div>
+        </footer>
+        <!-- FIM DO RODAPÉ -->
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

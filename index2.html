@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4" style="border: 1px solid black; float: left; width: 300px; height: 500px;">
+                    <OL type="I">
+                        <LI>Seção I</LI>
+                        <OL type="A">
+                            <LI>tópico A</LI>
+                            <UL TYPE="disc">
+                                <LI>Ítem 1</LI>
+                                <LI>Ítem 2</LI>
+                                <UL TYPE="square">
+                                    <LI>Sub-ítem 1</LI>
+                                    <LI>Sub-ítem 2</LI>
+                                </UL>
+                                <LI>Ítem 3</LI>
+                            </UL>
+                            <LI>tópico B</LI>
+                            <UL TYPE="disc">
+                                <LI>Ítem 1</LI>
+                                <UL>
+                                    <LI>Sub-ítem 1</LI>
+                                    <LI>Sub-ítem 2</LI>
+                                    <LI>Sub-ítem 3</LI>
+                                </UL>
+                            </UL>
+                        </OL>
+                    </OL>
+                </div>
+                <div class="col-lg-6" style="border: 1px solid black;">
+                    <div class="container" title="Você está no Menu" >
+                        <div class="row">
+                            <div class="col-lg-12" id="menu">
+                                <ul>
+                                    <li><a href="times/times.html" tabindex="3" accesskey="t" title="Times">Times</a></li>
+                                    <li><a href="artesanato/artesanato.html" tabindex="4" accesskey="a" title="Artesanato">Artesanato</a></li>
+                                    <li><a href="musica/musica.html" tabindex="5" accesskey="m" title="Música">Música</a></li>
+                                    <li><a href="novelas/novelas.html" tabindex="6" accesskey="n" title="Novelas">Novelas</a></li>
+                                    <li><button class="btn btn-danger" type="button" value="+" onclick="fonte('a');" title="Aumentar Fonte">A+</button></li>
+                                    <li><button class="btn btn-danger" type="button" value="-" onclick="fonte('b');" title="Diminuir Fonte">A-</button></li>
+                                    <li><button class="btn btn-danger" type="button" value="100%" onclick="fonte('c')" title="Fonte Tamanho Original">A</button></li>
+                                    <li><button class="btn btn-danger" type="button" value="Cor" onclick="muda();" title="Altera cor de fundo">Cor</button></li>
+                                    <li><button class="btn btn-danger" type="button" value="CorPadrao" onclick="mudaOriginal();" title="Cor de fundo Original">Padrão</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

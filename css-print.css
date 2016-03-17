@@ -1,0 +1,47 @@
+/* Esta folha CSS pertence ao site Acessibilidade Legal */
+
+.descricao-layout, #cabecalho, .barra_azul, .barra_azul ul, #direita, #smiley, #rodape  { display:none; }
+
+a img { display:none; border:0; }
+.borda_foto { text-align:center; }
+.centro { text-indent:0; text-align:center; }
+h1, h2, h3, h4, h5, h6 { text-align:left; }
+code { padding:1em; border:1px dashed #CCC; display:block; text-align:left; }
+
+#esquerda { width:100%; text-align:justify; }
+#esquerda p { text-indent:3em; }
+#esquerda p.txt-foto { text-align:center; font-style:italic; text-indent:0; }
+#esquerda p.blockquote { margin-left:3em; text-indent:0; }
+#esquerda p.normal { text-indent:0; }
+#esquerda p.creditos { font-style:italic; font-weight:bold; text-align:right; text-indent:0; }
+#esquerda p.obs  { text-indent:0; }
+#esquerda p.data { text-align:right; }
+#esquerda p.centro { text-indent:0; text-align:center; }
+#esquerda ol,
+#esquerda ul { margin-left:3em; }
+#esquerda ol ol { margin-left:3em; list-style:lower-alpha; }
+#esquerda ol ol ol { margin-left:2em;list-style:lower-roman;  }
+#esquerda ul { margin-left:3em; list-style:circle; }
+#esquerda ul ul { margin-left:3em; }
+#esquerda dt, #esquerda dd { text-align:left; }
+
+#esquerda a { color:#000; text-decoration:none; }
+
+#esquerda .h_subtitulo { color:#000; }
+#int_esq { float:left ; width:46%; }
+#int_dir { float:right; width:46%; }
+#int_esq p.incluido, #int_dir p.incluido { text-align:right; }
+
+#impressao { text-align:center; border-top:1px dotted #000; }
+
+table { font-size:1.4em; }
+.table { width:80%; margin:0 auto; }
+.table .centro { text-align:center; }
+.table .esquerda { text-align:left; }
+.table table { width:100%; border:1px outset #333; border-spacing:5px; margin:auto; background:#FFF4EA; }
+.table caption { margin:auto; }
+.table th, .table td { border:1px inset #DDD; padding:4px; }
+.table th { background:#efefef; text-align:center; }
+.table td { background:#FFF; text-align:center; }
+.table tbody td { color:#F00; }
+.table .linha-das-medias td { text-align:center; font-weight:bold; color:#039; } 

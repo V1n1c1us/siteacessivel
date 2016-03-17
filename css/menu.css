@@ -1,0 +1,40 @@
+/* 
+    Created on : 11/10/2015, 16:24:55
+    Author     : Vinicius
+*/
+
+div#menu ul{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+div#menu li{
+    text-decoration: underline;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    margin: 15px;
+    font-family: Tahoma;
+    font-size: 2em;
+    color: black;
+}
+
+div#menu li a{
+    color: black;
+}
+button{
+    width: 60px;
+    height: 50px;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+a:visited{
+    text-decoration: none;
+}
+/**
+a:focus, a:hover{
+	border: 2px dotted #F00;
+}
+**/

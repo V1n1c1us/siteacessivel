@@ -1,0 +1,21 @@
+.background{
+    background-color: black;
+}
+.corFundo{
+    background-color: black;
+}
+.corFundo p{
+    color: white;
+}
+div#menu li a{
+    color: white;
+    background: black;
+}
+
+div#ancora a{
+    color: white;
+}
+
+ul#listaMaterial {
+    color: white;
+}
