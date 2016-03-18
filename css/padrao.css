@@ -1,3 +1,19 @@
 body{
     background-color: white;
 }
+
+div#menu{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    font-family: Tahoma;
+    color: black;
+}
+
+div#menu a{
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+}

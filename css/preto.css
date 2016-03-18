@@ -4,9 +4,26 @@
 .corFundo{
     background-color: black;
 }
+div#menu a#info{
+    margin: 0 0 0 25%;
+}
+
 .corFundo p{
     color: white;
 }
+.corFundo a{
+    color: white;
+}
+
+div#menu a.info{
+    margin: 0 0 0 25%;
+}
+
+div#menu a{
+    color: white;
+    background: black;
+}
+
 div#menu li a{
     color: white;
     background: black;
@@ -22,3 +39,6 @@ ul#listaMaterial {
 h1,h2,h3{
     color: white;
 }
+
+
+
